@@ -1,0 +1,88 @@
+
+:root {
+    --main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    -ms-overflow-style: none;
+    font-family: var(--main-font);
+} 
+::-webkit-scrollbar { 
+    display: none; }
+
+/* about */
+.work7{
+    position: absolute;
+    left: 33%;
+    top: 24%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+    display: flex;
+    align-items: center;
+
+    transform: rotate(-90deg);
+}
+
+/* artudent */
+.name7{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 146px;
+    top: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    color: #D9BD2A;
+}
+
+@media all and (max-width : 767px) {
+    .box7{
+        position: absolute;
+        width: 216.34px;
+        height: 353.68px;
+        left: 115px;
+        top: 48px;
+
+    }
+}
+
+@media all and (max-width : 767px) {
+    .phone{
+        position: absolute;
+        width: 266px;
+        height: 186.3px;
+        left: 74px;
+        top: 702px;
+    }
+}
+
+@media all and (max-width : 767px) {
+    .phone2{
+        position: absolute;
+        width: 265.76px;
+        height: 184px;
+        left: 74px;
+        top: 939px;
+    }
+}
+@media all and (max-width : 767px) {
+    .insta3{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 174px;
+        top: 1165px;
+    }
+}
